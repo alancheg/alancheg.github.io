@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://alancheg.github.io</id>
     <title>alancheg&apos;s secret space</title>
-    <updated>2019-06-15T13:12:38.728Z</updated>
+    <updated>2019-06-18T04:17:21.933Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://alancheg.github.io"/>
     <link rel="self" href="https://alancheg.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://alancheg.github.io/images/avatar.png</logo>
     <icon>https://alancheg.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, alancheg&apos;s secret space</rights>
+    <entry>
+        <title type="html"><![CDATA[近期技术问题总结 JAVA WEB/中间件/软件定义网络/CI/DevOps]]></title>
+        <id>https://alancheg.github.io/post/jin-qi-ji-zhu-wen-ti-zong-jie-java-webzhong-jian-jian-ruan-jian-ding-yi-wang-luo-cidevops</id>
+        <link href="https://alancheg.github.io/post/jin-qi-ji-zhu-wen-ti-zong-jie-java-webzhong-jian-jian-ruan-jian-ding-yi-wang-luo-cidevops">
+        </link>
+        <updated>2019-06-17T17:45:01.000Z</updated>
+        <content type="html"><![CDATA[<p>近期考虑入职，因此需要把一些之前知道，但是模糊的东西进行统一的学习并且加深理解。</p>
+<h2 id="java-web">JAVA WEB</h2>
+<p>这算是我的老本行，因为面试的时候主要就是基于Java Web 项目进行的面试。但是，我自认为对Java Web 还有很多不甚了解的地方，接着最近比较空闲，想着好好整理一下相关的内容，也算是梳理一下自己的只是结构。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于内容创作]]></title>
         <id>https://alancheg.github.io/post/guan-yu-nei-rong-chuang-zuo</id>
