@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://alancheg.github.io</id>
     <title>alancheg&apos;s secret space</title>
-    <updated>2019-06-18T04:17:21.933Z</updated>
+    <updated>2019-06-20T05:41:59.991Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://alancheg.github.io"/>
     <link rel="self" href="https://alancheg.github.io/atom.xml"/>
@@ -10,6 +10,26 @@
     <logo>https://alancheg.github.io/images/avatar.png</logo>
     <icon>https://alancheg.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, alancheg&apos;s secret space</rights>
+    <entry>
+        <title type="html"><![CDATA[6-20 到 7-20 基本学习计划]]></title>
+        <id>https://alancheg.github.io/post/6-20-dao-7-20-ji-ben-xue-xi-ji-hua</id>
+        <link href="https://alancheg.github.io/post/6-20-dao-7-20-ji-ben-xue-xi-ji-hua">
+        </link>
+        <updated>2019-06-20T05:29:08.000Z</updated>
+        <content type="html"><![CDATA[<p>因为入职时间有了一定的延迟，因此可以有一些时间进行自己学习。
+暂定的学习计划主要如下：</p>
+<h2 id="java-基础概念和-python-基本概念的">Java 基础概念和 Python 基本概念的</h2>
+<p>复习和熟练。因为一段时间没有练习了，所以需要多写点东西好好熟练一下。</p>
+<h2 id="spring-相关框架">Spring 相关框架</h2>
+<p>参照已有的教学视频（）进行仔细的剖析，这个不管工作用不用的到，去外面接活也是可以用到的。
+这个时间主要是两周左右，学习时间是 6-20 到 7-7 ，学习成果是更新约 10 篇的博客，主要涉及到Spring 的工作原理，以及对应自己做的实际项目的问题分析。</p>
+<h2 id="hadoop-spark">Hadoop Spark</h2>
+<p>这个公司会用到的可能性非常大，因此要好好看一下，同时通过自己构建虚拟机，进行一定的实际操作，并且做些基本的性能优化时间。
+这个的学习时间控制在 7.8 - 7.21 ，预计的产出是 7 到 10 篇的博客，不要重复一些老旧的知识点，需要多多分析一下性能指标之类的东西。</p>
+<h2 id="其他">其他</h2>
+<p>目标1 和目标2、3是并行的，比如复习Python，我希望主要通过 Python 或者 Java 来编写一个基本的</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[近期技术问题总结 JAVA WEB/中间件/软件定义网络/CI/DevOps]]></title>
         <id>https://alancheg.github.io/post/jin-qi-ji-zhu-wen-ti-zong-jie-java-webzhong-jian-jian-ruan-jian-ding-yi-wang-luo-cidevops</id>
