@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://alancheg.github.io</id>
     <title>alancheg&apos;s secret space</title>
-    <updated>2019-06-24T03:26:50.775Z</updated>
+    <updated>2019-06-25T01:27:02.893Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://alancheg.github.io"/>
     <link rel="self" href="https://alancheg.github.io/atom.xml"/>
@@ -10,6 +10,83 @@
     <logo>https://alancheg.github.io/images/avatar.png</logo>
     <icon>https://alancheg.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, alancheg&apos;s secret space</rights>
+    <entry>
+        <title type="html"><![CDATA[单元测试 Junit]]></title>
+        <id>https://alancheg.github.io/post/dan-yuan-ce-shi-junit</id>
+        <link href="https://alancheg.github.io/post/dan-yuan-ce-shi-junit">
+        </link>
+        <updated>2019-06-25T00:36:01.000Z</updated>
+        <content type="html"><![CDATA[<p>一直以来，都对测试等方面的知识欠缺了解，最近比较闲，所以查漏补缺，学习一下单元测试方面的东西，主要通过学习 Junit 进行了解。</p>
+<h2 id="junit">Junit</h2>
+<p>Junit 是一个针对 Java 语言设计的，最广泛的单元测试框架。Junit 是事实上的标准单元测试框架。</p>
+<h2 id="junit-特点">Junit 特点</h2>
+<ul>
+<li>使用断言 Assertion 测试期望的结果</li>
+<li>可以方便地组织和运行测试</li>
+<li>可以方便地查看测试结果</li>
+<li>常用IDE都对 Junit 进行了集成</li>
+<li>可以方便地集成到 Maven</li>
+</ul>
+<h2 id="junit-的设计">Junit 的设计</h2>
+<ul>
+<li>TestCase：一个 TestCase 表示一个测试</li>
+<li>TestSuite：一个 TestSuite 包含一组 TestCase，表示一组测试</li>
+<li>TestFixture：一个 TestFixture 表示一个测试环境</li>
+<li>TestResult：用于收集测试结果</li>
+<li>TestRunner：用于运行测试</li>
+<li>TestListener：用于监听测试过程、收集测试数据</li>
+<li>Assert：用于断言测试结果是否正确（区分 Assert 关键词）</li>
+</ul>
+<h2 id="assert-的使用">Assert 的使用</h2>
+<ul>
+<li>断言相等 assertEquals(100, x)</li>
+<li>断言数组相等 assertArrayEquals({1,2,3}, x)</li>
+<li>浮点数断言相等 assertEquals(3.1415, x, 0.0001)</li>
+<li>断言为 null assertNull(x)</li>
+<li>断言为 true/false assertTrue(x&gt;0) assertFalse(x&lt;0)</li>
+<li>其他 assertNotEquals / assertNotNull</li>
+</ul>
+<h2 id="junit-使用总结">Junit 使用总结</h2>
+<ul>
+<li>一个 TestCase 包含一组相关的测试方法</li>
+<li>使用 Assert 断言测试结果 （浮点数需要制定小数点后的位数）</li>
+<li>每个测试方法必须完全独立</li>
+<li>测试代码必须非常简单</li>
+<li>不能为测试代码再编写测试</li>
+<li>测试需要覆盖各种条件，特别是边界条件</li>
+</ul>
+<h2 id="junit-中的-before-和-after">Junit 中的 @Before 和 @After</h2>
+<p>@Before 方法中初始化测试资源
+@After 方法中释放测试资源</p>
+<p><img src="https://alancheg.github.io/post-images/1561425268030.png" alt=""></p>
+<h2 id="junit-对于每个-test-方法">Junit 对于每个 @Test 方法</h2>
+<ul>
+<li>
+<ol>
+<li>实例化 xxxTest</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>执行 @Before 方法</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li>执行 @Test 方法</li>
+</ol>
+</li>
+<li>
+<ol start="4">
+<li>执行 @After 方法</li>
+</ol>
+</li>
+</ul>
+<p><img src="https://alancheg.github.io/post-images/1561426017051.png" alt=""></p>
+<h2 id="参考文献">参考文献</h2>
+<p>廖雪峰 -- Junit 单元测试</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[6-20 到 7-20 基本学习计划]]></title>
         <id>https://alancheg.github.io/post/6-20-dao-7-20-ji-ben-xue-xi-ji-hua</id>
