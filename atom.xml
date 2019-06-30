@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://alancheg.github.io</id>
-    <title>alancheg&apos;s secret space</title>
-    <updated>2019-06-30T16:14:47.024Z</updated>
+    <title>泽陂的小屋</title>
+    <updated>2019-06-30T17:17:27.159Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://alancheg.github.io"/>
     <link rel="self" href="https://alancheg.github.io/atom.xml"/>
     <subtitle>记录一些想法、编程笔记</subtitle>
     <logo>https://alancheg.github.io/images/avatar.png</logo>
     <icon>https://alancheg.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2019, alancheg&apos;s secret space</rights>
+    <rights>All rights reserved 2019, 泽陂的小屋</rights>
     <entry>
         <title type="html"><![CDATA[编程的系统学习]]></title>
         <id>https://alancheg.github.io/post/bian-cheng-de-xi-tong-xue-xi</id>
