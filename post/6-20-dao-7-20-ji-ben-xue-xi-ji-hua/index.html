@@ -1,122 +1,60 @@
-
-<!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>6-20 到 7-20 基本学习计划 | alancheg&#39;s secret space</title>
-<meta name="description" content="记录一些想法、编程笔记">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
+<link rel="shortcut icon" href="https://alancheg.github.io/favicon.ico?v=1561881323131">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://alancheg.github.io/favicon.ico?v=1561881274237">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://alancheg.github.io/styles/main.css">
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
 
   </head>
   <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://alancheg.github.io">
-        <img class="avatar" src="https://alancheg.github.io/images/avatar.png?v=1561881274237" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://alancheg.github.io">
-        <h1 class="site-title">alancheg&#39;s secret space</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://alancheg.github.io">
+  <img class="avatar" src="https://alancheg.github.io/images/avatar.png?v=1561881323131" alt="">
+  </a>
+  <h1 class="site-title">
+    alancheg&#39;s secret space
+  </h1>
+  <p class="site-description">
+    记录一些想法、编程笔记
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
   </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
-        <div class="post-detail">
-          
-          <h2 class="post-title">6-20 到 7-20 基本学习计划</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2019-06-20</span>
-            
-          </div>
-          <div class="post-content">
-            <p>因为入职时间有了一定的延迟，因此可以有一些时间进行自己学习。
-暂定的学习计划主要如下：</p>
-<h2 id="java-基础概念和-python-基本概念的">Java 基础概念和 Python 基本概念的</h2>
-<p>复习和熟练。因为一段时间没有练习了，所以需要多写点东西好好熟练一下。</p>
-<h2 id="spring-相关框架">Spring 相关框架</h2>
-<p>参照已有的教学视频（）进行仔细的剖析，这个不管工作用不用的到，去外面接活也是可以用到的。
-这个时间主要是两周左右，学习时间是 6-20 到 7-7 ，学习成果是更新约 10 篇的博客，主要涉及到Spring 的工作原理，以及对应自己做的实际项目的问题分析。</p>
-<h2 id="hadoop-spark">Hadoop Spark</h2>
-<p>这个公司会用到的可能性非常大，因此要好好看一下，同时通过自己构建虚拟机，进行一定的实际操作，并且做些基本的性能优化时间。
-这个的学习时间控制在 7.8 - 7.21 ，预计的产出是 7 到 10 篇的博客，不要重复一些老旧的知识点，需要多多分析一下性能指标之类的东西。</p>
-<h2 id="其他">其他</h2>
-<p>目标1 和目标2、3是并行的，比如复习Python，我希望主要通过 Python 或者 Java 来编写一个基本的</p>
-
-          </div>
-        </div>
-
-        
-          <div class="next-post">
-            <a class="purple-link" href="https://alancheg.github.io/post/jin-qi-ji-zhu-wen-ti-zong-jie-java-webzhong-jian-jian-ruan-jian-ding-yi-wang-luo-cidevops">
-              <h3 class="post-title">
-                下一篇：近期技术问题总结 JAVA WEB/中间件/软件定义网络/CI/DevOps
-              </h3>
-            </a>
-          </div>
-          
-      </div>
-
-      
-
-      <div class="site-footer">
-  <div class="slogan">记录一些想法、编程笔记</div>
   <div class="social-container">
     
       
@@ -130,26 +68,62 @@
       
     
   </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://alancheg.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
 
-    </div>
-    <script type="application/javascript">
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              6-20 到 7-20 基本学习计划
+            </h2>
+            <div class="post-info">
+              <time class="post-time">
+                · 2019-06-20 ·
+              </time>
+              
+            </div>
+            
+            <div class="post-content">
+              <p>因为入职时间有了一定的延迟，因此可以有一些时间进行自己学习。
+暂定的学习计划主要如下：</p>
+<h2 id="java-基础概念和-python-基本概念的">Java 基础概念和 Python 基本概念的</h2>
+<p>复习和熟练。因为一段时间没有练习了，所以需要多写点东西好好熟练一下。</p>
+<h2 id="spring-相关框架">Spring 相关框架</h2>
+<p>参照已有的教学视频（）进行仔细的剖析，这个不管工作用不用的到，去外面接活也是可以用到的。
+这个时间主要是两周左右，学习时间是 6-20 到 7-7 ，学习成果是更新约 10 篇的博客，主要涉及到Spring 的工作原理，以及对应自己做的实际项目的问题分析。</p>
+<h2 id="hadoop-spark">Hadoop Spark</h2>
+<p>这个公司会用到的可能性非常大，因此要好好看一下，同时通过自己构建虚拟机，进行一定的实际操作，并且做些基本的性能优化时间。
+这个的学习时间控制在 7.8 - 7.21 ，预计的产出是 7 到 10 篇的博客，不要重复一些老旧的知识点，需要多多分析一下性能指标之类的东西。</p>
+<h2 id="其他">其他</h2>
+<p>目标1 和目标2、3是并行的，比如复习Python，我希望主要通过 Python 或者 Java 来编写一个基本的</p>
 
-hljs.initHighlightingOnLoad()
+            </div>
+          </article>
+        </div>
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://alancheg.github.io/post/jin-qi-ji-zhu-wen-ti-zong-jie-java-webzhong-jian-jian-ruan-jian-ding-yi-wang-luo-cidevops">
+              <h3 class="post-title">
+                近期技术问题总结 JAVA WEB/中间件/软件定义网络/CI/DevOps
+              </h3>
+            </a>
+          </div>
+        
 
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="https://alancheg.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
 </script>
 
-
-
-
+      </div>
+    </div>
   </body>
 </html>
